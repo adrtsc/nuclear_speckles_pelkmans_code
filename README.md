@@ -1,4 +1,4 @@
-# nuclear_speckles_pelkmans_code
+# nuclear_speckles_pelkmans_code [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14082903.svg)](https://doi.org/10.5281/zenodo.14082903)
 Code resources associated with the publication "Phosphorylation of a nuclear condensate regulates cohesion and mRNA retention "
 
 This repository contains two folders:
