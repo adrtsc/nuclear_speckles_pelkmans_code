@@ -22,3 +22,8 @@ Scripts used to run multilinear regression model to predict nulcear speckle enri
   - 02_run_MLR_combinatorial.py: Script to run step 02 on slurm cluster.
   - 03_MLR_top_loadings.py: Script to analyse top PC loadings in PCs with highest absolute coefficients in MLR.
   - 03_run_MLR_top_loadings.py: Script to run step 03 on slurm cluster.
+
+## Proteomics scripts:
+Scripts used to analyze proteomics and phosphoproteomics data for pulldowns of GFP, GFP-DYRK3, and GFP-PP1(m)-NIPP1
+  - proteomics_analysis.R: script to run analysis at the protein-level (used for Figure 1C)
+  - phosphoproteomics_analysis.R: script to run analysis at the peptide level comparing detection of phosphorylated and unphosphorylated peptides across conditions
