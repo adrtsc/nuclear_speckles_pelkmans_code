@@ -1,7 +1,7 @@
 # nuclear_speckles_pelkmans_code [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14082902.svg)](https://doi.org/10.5281/zenodo.14082902)
 Code resources associated with the publication "Phosphorylation of a nuclear condensate regulates cohesion and mRNA retention "
 
-This repository contains two folders:
+This repository contains several folders:
 
 ## transcript_feature_calculation:
 Scripts used to generate transcript features (folder transcript_feature_calculation). The following files have been deposited:
@@ -25,5 +25,15 @@ Scripts used to run multilinear regression model to predict nulcear speckle enri
 
 ## Proteomics scripts:
 Scripts used to analyze proteomics and phosphoproteomics data for pulldowns of GFP, GFP-DYRK3, and GFP-PP1(m)-NIPP1
-  - proteomics_analysis.R: script to run analysis at the protein-level (used for Figure 1C)
-  - phosphoproteomics_analysis.R: script to run analysis at the peptide level comparing detection of phosphorylated and unphosphorylated peptides across conditions
+  - proteomics_analysis.R: Script to run analysis at the protein-level (used for Figure 1C)
+  - phosphoproteomics_analysis.R: Script to run analysis at the peptide level comparing detection of phosphorylated and unphosphorylated peptides across conditions
+
+## IF_polyA_image_analysis:
+Example script used to plot data from IF and polyA FISH experiments in 96-/384-well plates from output quantified per well using TissueMaps or Fractal 
+  - plot_violin.py
+
+## FRAP_analysis:
+Scripts to analyze and plot FRAP data from Leica microscope .lif files
+  - analyze_frap.py: Script that automates detection of ROI selected for bleaching and quantifies recovery over time (limitation: ROI is currently only round, results should be compared to manual analysis) 
+  - plot_frap_results.py: Script to plot recovery curves from output file quantifying mean intensities in each ROI 
+  - plot_FRAP_plots.sh: Example of command used to run plot_frap_results.py 
